@@ -14,7 +14,7 @@ export const registerUserService =
 
         await API.post(
 
-          "/auth/register",
+          "/api/auth/register",
 
           userData
         );
@@ -52,7 +52,7 @@ export const loginUserService =
 
         await API.post(
 
-          "/auth/login",
+          "/api/auth/login",
 
           userData
         );

@@ -37,7 +37,7 @@ export const jdMatchService =
 
         await API.post(
 
-          "/jd-match",
+          "api/jd-match",
 
           {
 

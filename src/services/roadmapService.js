@@ -60,7 +60,7 @@ export const roadmapService = async (
 
     const response = await API.post(
 
-      "/roadmap",
+      "api/roadmap",
 
       requestBody
 

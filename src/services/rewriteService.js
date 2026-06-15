@@ -39,7 +39,7 @@ export const rewriteResumeService =
 
         await API.post(
 
-          "/rewrite",
+          "api/rewrite",
 
           {
 

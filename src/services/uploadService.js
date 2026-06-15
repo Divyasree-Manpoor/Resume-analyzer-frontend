@@ -37,7 +37,7 @@ export const uploadResumeService =
 
         await API.post(
 
-          "/upload",
+          "api/upload",
 
           formData,
 
